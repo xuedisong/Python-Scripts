@@ -1,0 +1,38 @@
+{
+  "Pclass": {
+    "is_label": 0,
+    "type": "numeric"
+  },
+  "Sex": {
+    "is_label": 0,
+    "type": "category"
+  },
+  "Age": {
+    "is_label": 0,
+    "type": "numeric"
+  },
+  "SibSp": {
+    "is_label": 0,
+    "type": "numeric"
+  },
+  "Parch": {
+    "is_label": 0,
+    "type": "numeric"
+  },
+  "Fare": {
+    "is_label": 0,
+    "type": "numeric"
+  },
+  "Cabin": {
+    "is_label": 0,
+    "type": "category"
+  },
+  "Embarked": {
+    "is_label": 0,
+    "type": "category"
+  },
+  "Survived": {
+    "is_label": 1,
+    "type": "category"
+  }
+}
