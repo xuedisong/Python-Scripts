@@ -52,7 +52,7 @@ for x in x_list:
     if len(x_index) == 1:
         print("=====:", x)
     chi2_test = pd.Series(chi2_contingency(d.to_numpy()), index=['chi2', 'p', 'degree_of_free', 'exp'])
-    chi2_test['fai'], chi2_test['c'], chi2_test['V'] = StatUtil.cc_coefficient(
+    chi2_test['fai'], chi2_test['c'], chi2_test['V'] = StatsUtil.cc_coefficient(
         chi2_test['chi2'], len(df), len(y_index), len(x_index))
     chi_test_df[x] = chi2_test
 
